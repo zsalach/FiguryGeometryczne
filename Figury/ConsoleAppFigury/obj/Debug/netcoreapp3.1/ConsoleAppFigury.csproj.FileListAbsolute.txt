@@ -1,0 +1,14 @@
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\ConsoleAppFigury\bin\Debug\netcoreapp3.1\ConsoleAppFigury.exe
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\ConsoleAppFigury\bin\Debug\netcoreapp3.1\ConsoleAppFigury.deps.json
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\ConsoleAppFigury\bin\Debug\netcoreapp3.1\ConsoleAppFigury.runtimeconfig.json
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\ConsoleAppFigury\bin\Debug\netcoreapp3.1\ConsoleAppFigury.runtimeconfig.dev.json
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\ConsoleAppFigury\bin\Debug\netcoreapp3.1\ConsoleAppFigury.dll
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\ConsoleAppFigury\bin\Debug\netcoreapp3.1\ConsoleAppFigury.pdb
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\ConsoleAppFigury\bin\Debug\netcoreapp3.1\FiguryArray.dll
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\ConsoleAppFigury\bin\Debug\netcoreapp3.1\FiguryArray.pdb
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\ConsoleAppFigury\obj\Debug\netcoreapp3.1\ConsoleAppFigury.csprojAssemblyReference.cache
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\ConsoleAppFigury\obj\Debug\netcoreapp3.1\ConsoleAppFigury.AssemblyInfoInputs.cache
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\ConsoleAppFigury\obj\Debug\netcoreapp3.1\ConsoleAppFigury.AssemblyInfo.cs
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\ConsoleAppFigury\obj\Debug\netcoreapp3.1\ConsoleAppFigury.csproj.CopyComplete
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\ConsoleAppFigury\obj\Debug\netcoreapp3.1\ConsoleAppFigury.dll
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\ConsoleAppFigury\obj\Debug\netcoreapp3.1\ConsoleAppFigury.pdb

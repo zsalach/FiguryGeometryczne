@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleAppFigury/1.0.0": {
+        "dependencies": {
+          "FiguryArray": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleAppFigury.dll": {}
+        }
+      },
+      "FiguryArray/1.0.0": {
+        "runtime": {
+          "FiguryArray.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleAppFigury/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FiguryArray/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
