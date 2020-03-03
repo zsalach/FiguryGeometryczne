@@ -74,14 +74,14 @@ namespace FiguryArray
 // to jets kanalizacja kodu biore a z konstruktora i zapisuję poprzez seter A
         }
 
-        //tekstowa reprezentacja obiektu. Zostaje wyświetlony w konnsoli. 
+//tekstowa reprezentacja obiektu. Zostaje wyświetlony w konnsoli. 
         public override string ToString()       // funkcja, która wyrzuca z siebie napis.
         {
             //return base.ToString();   // nie o to nam chodzia
             return $"Trójkąt (a:{a}, b: {b}, c: {c})";
         }
-        // 3. właściwości i metody w C# występuje coś czego nie ma w jawie a mianowicie Properties.
-        // obwód
+ // 3. właściwości i metody w C# występuje coś czego nie ma w jawie a mianowicie Properties.
+ // obwód
 
 
         public double GetObwod() // mETODA ZWRACAJĄCA OBWÓD TEGO TRÓJKATA.

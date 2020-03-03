@@ -33,6 +33,7 @@ namespace ConsoleAppFigury
             Console.WriteLine(t2);
             Console.WriteLine(t2.A);
 
+            Console.WriteLine("===============================================");
             Console.ReadKey();
         }
     }
