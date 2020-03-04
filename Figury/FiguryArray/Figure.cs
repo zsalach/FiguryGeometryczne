@@ -4,23 +4,21 @@ using System.Text;
 
 namespace FiguryLibrary
 {
-    public class Figure
+    abstract public class Figure
     {
+        public string Color { get; set; } //read-write
 
-        public string Color { get; private set; }
-        public Figure(string color = "black")
+        public Figure(string color)
         {
             Color = color;
-
         }
+
         public void Print()
         {
-            Console.WriteLine($"Figure {this}, color = {Color}");        ///ta figura!
+            Console.WriteLine($"figure {this}, color = {Color}");
         }
 
-         public void Drow() //rysowanie figury za pomocą plotera.
-        {
-            Console.WriteLine("");
-        }
+        abstract public void Draw(); // rysowanie figurty za pomocą plottera
+
     }
 }

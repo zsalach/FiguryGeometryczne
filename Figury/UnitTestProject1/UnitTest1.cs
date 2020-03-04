@@ -1,5 +1,6 @@
 ﻿using System;
-//using FiguryLibrary;
+using FiguryLibrary;
+
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTestProject1
@@ -7,41 +8,33 @@ namespace UnitTestProject1
     [TestClass]
     public class UnitTest1
     {
-        /*[DataTestMethod]
+        [DataTestMethod]
         [DataRow(3, 4, 5)]
         [DataRow(2, 3, 4)]
         [DataRow(1, 1, 1)]
-
-
-
-        [TestMethod]
-        public void ConstruktorPoprawneDaneTrojkatUtworzony(double a, double b, double c)
+        public void ConstructorPoprawneDaneTrojkatUtworzony(double a, double b, double c)
         {
+            //AAA
+            // Arange
 
-            //AAA - trzy a
-            //Arrange
-            //Act
-            //Assert
-
-            //Act 
+            // Act
             Trojkat t = new Trojkat(a, b, c);
 
-            //Assert 
+            // Assert
             Assert.AreEqual(a, t.A);
             Assert.AreEqual(b, t.B);
             Assert.AreEqual(c, t.C);
-
         }
 
-
         [TestMethod]
-        public void ConstruktorDefaultPoprawnie()
+        public void ConstructorDeafultPoprawnie()
         {
-            //Arrange
-            //Act
+            // Arrange
+
+            // Act
             Trojkat t = new Trojkat();
 
-            //Assert
+            // Assert
             Assert.AreEqual(1, t.A);
             Assert.AreEqual(1, t.B);
             Assert.AreEqual(1, t.C);
@@ -52,7 +45,7 @@ namespace UnitTestProject1
         [DataRow(-1, 1, 1)]
         [DataRow(1, -1, 1)]
         [DataRow(1, 1, -1)]
-        public void ConstruktorParametry_ArgumentOutOfRangeException(double a, double b, double c)
+        public void ConstructorUjemnyParametr_ArgumentOutOfRangeException(double a, double b, double c)
         {
             Trojkat t = new Trojkat(a, b, c);
         }
@@ -62,38 +55,22 @@ namespace UnitTestProject1
         [DataRow(1, 1, 100)]
         [DataRow(100, 1, 1)]
         [DataRow(1, 100, 1)]
-        public void ConstructorNieSpelnionyWarunekTrojkota_ArgumentExcepcion(double a, double b, double c)
+        public void ConstructorNieSpelnionyWarunekTrojkata_ArgumentException(double a, double b, double c)
         {
             Trojkat t = new Trojkat(a, b, c);
         }
 
-
-
         [DataTestMethod]
         [DataRow(1, 1, 1, 3)]
         [DataRow(3, 4, 5, 12)]
+        [DataRow(0.1, 0.2, 0.3, 0.6)]
         public void PropertyObwod_Poprawnie(double a, double b, double c, double wynik)
         {
-            //Act
-            var t = new Trojkat(a, b, c);
-
-
-            //Assert
-            Assert.AreEqual(wynik, t.Obwód,0.01); // to nie zawsze bezie działać. Musimu zaokrąglić 0.01
-
-
-        }
-
-        [DataTestMethod]
-        [DataRow(1, 2, 3, 16)]
-        [DataRow(2, 3, 2, 7)]
-        public void PropertyPole_Poprawnie(double a, double b, double c, double pole)
-        {
-            //Act
+            // Act
             var t = new Trojkat(a, b, c);
 
             //Assert
-            Assert.AreEqual(pole, t.Pole, 0.01);  //*/
+            Assert.AreEqual(wynik, t.Obwod, 0.01);
         }
     }
-
+}

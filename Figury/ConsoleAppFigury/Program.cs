@@ -5,7 +5,6 @@ namespace ConsoleAppFigury
 {
     class Program
     {
-
         static void Main()
         {
             var t = new Triangle();
@@ -15,84 +14,57 @@ namespace ConsoleAppFigury
 
             var s = new Sphere(10);
             Console.WriteLine(s);
-
+            Console.WriteLine(s.Surface);
+            Console.WriteLine(s.Perimeter);
         }
 
-        static void Main1(string[] args)
+        static void Main2()
         {
-
-        }
-        /*
-        Triangle t = new Triangle();
-        Console.WriteLine(t);
-
-        var t1 = new Triangle(1.5, 1, 1);
-        Console.WriteLine(t1);
-
-        var t2 = new Triangle(3):
-        Console.WriteLine( t2);
-
-        */
-        /*
-        Trojkat t1;
-        t1 = new Trojkat();
-        Console.WriteLine(t1);
-
-        Console.WriteLine($"obwód = {t1.Obwód}");
-        Console.WriteLine($"pole = {t1.GetPole()}");
-
-        /*
-         try
-         {
-             t1.A = -3; //zmienną a ustawiłem jako zmienną publiczną. W związku z tym mogę przypisywać jej nowe wartośći.
-         }
-         catch (ArgumentOutOfRangeException) {
-             Console.WriteLine("Nie wolno bokom przypisywać wartości ujmenych");
-         }
-         */
-        /*
-       // Console.WriteLine(t1.Obwód);
-       // Console.WriteLine($"pole = {t1.GetPole()}");
-       Console.WriteLine("=============================================");
-
-       var t2 = new Trojkat(3, 4, 5);
-       Console.WriteLine(t2);
-       // t2.A = 9;
-       t2.A = 2;
-       t1.B = 1;
-       t2.C = 1;
-
-       Console.WriteLine(t2);
-
-       Console.WriteLine("========================================");
-       Console.ReadKey();
-       */
-
-
-        static void Main2(string[] args)
-        {
-
             Triangle t = new Triangle();
             Console.WriteLine(t);
 
             var t1 = new Triangle(1.5, 1, 1);
             Console.WriteLine(t1);
 
-            var t2 = new Triangle(1);
-            Console.WriteLine(t2);
+            //var t2 = new Triangle(3); // pozostałe boki == 1
+            //Console.WriteLine(t2);
 
-
-            Circle C = new Circle(12);
-            Console.WriteLine($"Circle {C}");
-
-            Console.WriteLine($"Powierzchnia {C.Surface}.");
-            Console.WriteLine($"Obwod {C.Parimeter}.");
-
-            Console.WriteLine(C.Scale(12));
-
-
+            var t3 = t1.Scale(2);
+            Console.WriteLine(t3);
         }
-    
+
+        static void Main1(string[] args)
+        {
+            Trojkat t1; //deklaracja zmiennej typu Trojkat
+            t1 = new Trojkat();
+
+            Console.WriteLine(t1);
+            Console.WriteLine(t1.GetObwod());
+            Console.WriteLine(t1.Obwod);
+            Console.WriteLine($"pole = {t1.GetPole()}");
+            Console.WriteLine($"pole = {t1.Pole}");
+            try
+            {
+                t1.A = -1;
+                t1.B = -2;
+                t1.C = -3;
+            }
+            catch (ArgumentOutOfRangeException)
+            {
+                Console.WriteLine("nie wolno bokom przypiswać wartości ujemnych");
+            }
+            Console.WriteLine(t1);
+            Console.WriteLine(t1.Pole);
+
+            Console.WriteLine("=====================");
+            var t2 = new Trojkat(3, 4, 5);
+            Console.WriteLine(t2);
+            Console.WriteLine(t2.A);
+            //t2.B = 100;
+            //Console.WriteLine(t2);
+
+            //Console.WriteLine( 0.1m + 0.2m == 0.3m );
+        }
     }
 
 }

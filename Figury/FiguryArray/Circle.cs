@@ -7,29 +7,39 @@ namespace FiguryLibrary
     public  class Circle
     {
 
-        public double R { get; private set; }
-
-        public Circle(double r = 1)
+        public class Circle : Figure
         {
-            if (r <= 0)
-                throw new ArgumentOutOfRangeException("");
-            R = r;
+            public double R { get; private set; }
+
+            public Circle(double r = 1) : base("black")
+            {
+                if (r <= 0)
+                    throw new ArgumentOutOfRangeException("promień musi byc dodatni");
+
+                R = r;
+            }
+
+            public virtual double Perimeter => 2 * Math.PI * R;
+
+            public virtual double Surface => Math.PI * R * R;
+
+            public Circle Scale(double factor)
+            {
+                if (factor <= 0)
+                    throw new ArgumentOutOfRangeException("wsp. musi być dodatni");
+
+                return new Circle(R * factor);
+            }
+
+            public override string ToString()
+            {
+                return $"circle({R})";
+            }
+
+            public override void Draw()
+            {
+                Console.WriteLine("rysowanie kółka");
+            }
         }
-
-        public virtual double Parimeter => 2 * Math.PI * R;
-        public virtual  double Surface => Math.PI * R * R;
-        public Circle Scale (double factor)
-        {
-            if(factor <=0)
-                throw   new  ArgumentOutOfRangeException("Wspolczynnik skalowania musi być dodatni");
-            return new Circle(R * factor);
-        }
-
-        public override string ToString()
-        {
-            return $"circle({R})";
-        }
-
-
     }
-}
+
