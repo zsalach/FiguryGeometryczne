@@ -2,28 +2,46 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "FiguryArray/1.0.0": {
+      "FiguryLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/FiguryArray.dll": {}
+          "bin/placeholder/FiguryLibrary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/FiguryArray.dll": {}
+          "bin/placeholder/FiguryLibrary.dll": {}
+        }
+      },
+      "UnitTestProject1/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "FiguryLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnitTestProject1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnitTestProject1.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "FiguryArray/1.0.0": {
+    "FiguryLibrary/1.0.0": {
       "type": "project",
-      "path": "../FiguryArray/FiguryArray.csproj",
-      "msbuildProject": "../FiguryArray/FiguryArray.csproj"
+      "path": "../FiguryArray/FiguryLibrary.csproj",
+      "msbuildProject": "../FiguryArray/FiguryLibrary.csproj"
+    },
+    "UnitTestProject1/1.0.0": {
+      "type": "project",
+      "path": "../UnitTestProject1/UnitTestProject1.csproj",
+      "msbuildProject": "../UnitTestProject1/UnitTestProject1.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "FiguryArray >= 1.0.0"
+      "FiguryLibrary >= 1.0.0",
+      "UnitTestProject1 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -52,8 +70,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\zsala\\OneDrive\\Dokumenty\\GitHub\\FiguryGeometryczne\\Figury\\FiguryArray\\FiguryArray.csproj": {
-              "projectPath": "C:\\Users\\zsala\\OneDrive\\Dokumenty\\GitHub\\FiguryGeometryczne\\Figury\\FiguryArray\\FiguryArray.csproj"
+            "C:\\Users\\zsala\\OneDrive\\Dokumenty\\GitHub\\FiguryGeometryczne\\Figury\\FiguryArray\\FiguryLibrary.csproj": {
+              "projectPath": "C:\\Users\\zsala\\OneDrive\\Dokumenty\\GitHub\\FiguryGeometryczne\\Figury\\FiguryArray\\FiguryLibrary.csproj"
+            },
+            "C:\\Users\\zsala\\OneDrive\\Dokumenty\\GitHub\\FiguryGeometryczne\\Figury\\UnitTestProject1\\UnitTestProject1.csproj": {
+              "projectPath": "C:\\Users\\zsala\\OneDrive\\Dokumenty\\GitHub\\FiguryGeometryczne\\Figury\\UnitTestProject1\\UnitTestProject1.csproj"
             }
           }
         }

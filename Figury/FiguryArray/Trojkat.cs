@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FiguryArray
+namespace FiguryLibrary
 {
     public class Trojkat
     {

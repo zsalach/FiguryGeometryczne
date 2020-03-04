@@ -8,15 +8,32 @@
     ".NETCoreApp,Version=v3.1": {
       "ConsoleAppFigury/1.0.0": {
         "dependencies": {
-          "FiguryArray": "1.0.0"
+          "FiguryLibrary": "1.0.0",
+          "UnitTestProject1": "1.0.0"
         },
         "runtime": {
           "ConsoleAppFigury.dll": {}
         }
       },
-      "FiguryArray/1.0.0": {
+      "FiguryLibrary/1.0.0": {
         "runtime": {
-          "FiguryArray.dll": {}
+          "FiguryLibrary.dll": {}
+        }
+      },
+      "UnitTestProject1/1.0.0": {
+        "dependencies": {
+          "FiguryLibrary": "1.0.0"
+        },
+        "runtime": {
+          "UnitTestProject1.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.TestPlatform.TestFramework/14.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "14.0.2505.1"
+          }
         }
       }
     }
@@ -27,8 +44,18 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FiguryArray/1.0.0": {
+    "FiguryLibrary/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnitTestProject1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.TestPlatform.TestFramework/14.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

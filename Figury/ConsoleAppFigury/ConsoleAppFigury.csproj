@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FiguryArray\FiguryArray.csproj" />
+    <ProjectReference Include="..\FiguryArray\FiguryLibrary.csproj" />
+    <ProjectReference Include="..\UnitTestProject1\UnitTestProject1.csproj" />
   </ItemGroup>
 
 </Project>

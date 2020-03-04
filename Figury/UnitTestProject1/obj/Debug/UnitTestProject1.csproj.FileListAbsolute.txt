@@ -3,15 +3,13 @@ C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProje
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\bin\Debug\UnitTestProject1.dll
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
-C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\bin\Debug\FiguryArray.dll
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\bin\Debug\FiguryLibrary.dll
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
-C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\bin\Debug\FiguryArray.pdb
+C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\bin\Debug\FiguryLibrary.pdb
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\obj\Debug\UnitTestProject1.csprojAssemblyReference.cache
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
-C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\bin\Debug\UnitTestProject1.dll.CodeAnalysisLog.xml
-C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\UnitTestProject1\bin\Debug\UnitTestProject1.dll.lastcodeanalysissucceeded

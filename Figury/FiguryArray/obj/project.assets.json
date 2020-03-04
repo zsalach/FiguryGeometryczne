@@ -185,9 +185,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zsala\\OneDrive\\Dokumenty\\GitHub\\FiguryGeometryczne\\Figury\\FiguryArray\\FiguryArray.csproj",
-      "projectName": "FiguryArray",
-      "projectPath": "C:\\Users\\zsala\\OneDrive\\Dokumenty\\GitHub\\FiguryGeometryczne\\Figury\\FiguryArray\\FiguryArray.csproj",
+      "projectUniqueName": "C:\\Users\\zsala\\OneDrive\\Dokumenty\\GitHub\\FiguryGeometryczne\\Figury\\FiguryArray\\FiguryLibrary.csproj",
+      "projectName": "FiguryLibrary",
+      "projectPath": "C:\\Users\\zsala\\OneDrive\\Dokumenty\\GitHub\\FiguryGeometryczne\\Figury\\FiguryArray\\FiguryLibrary.csproj",
       "packagesPath": "C:\\Users\\zsala\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\zsala\\OneDrive\\Dokumenty\\GitHub\\FiguryGeometryczne\\Figury\\FiguryArray\\obj\\",
       "projectStyle": "PackageReference",

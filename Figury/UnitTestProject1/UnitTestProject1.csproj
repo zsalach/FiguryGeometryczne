@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FiguryArray\FiguryArray.csproj">
+    <ProjectReference Include="..\FiguryArray\FiguryLibrary.csproj">
       <Project>{8c1060f9-665f-4a4e-812b-867ef76cfb2d}</Project>
-      <Name>FiguryArray</Name>
+      <Name>FiguryLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
