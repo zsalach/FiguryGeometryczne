@@ -1,7 +1,6 @@
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\FiguryArray\bin\Debug\netstandard2.0\FiguryArray.deps.json
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\FiguryArray\bin\Debug\netstandard2.0\FiguryArray.dll
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\FiguryArray\bin\Debug\netstandard2.0\FiguryArray.pdb
-C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\FiguryArray\obj\Debug\netstandard2.0\FiguryArray.csprojAssemblyReference.cache
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\FiguryArray\obj\Debug\netstandard2.0\FiguryArray.AssemblyInfoInputs.cache
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\FiguryArray\obj\Debug\netstandard2.0\FiguryArray.AssemblyInfo.cs
 C:\Users\zsala\OneDrive\Dokumenty\GitHub\FiguryGeometryczne\Figury\FiguryArray\obj\Debug\netstandard2.0\FiguryArray.dll
